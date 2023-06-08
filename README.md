@@ -34,12 +34,11 @@ Security and compliance scanning of our bundles is performed using [Bridgecrew](
 | Benchmark                                                                                                                                                                                                                                                       | Description                        |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | [![Infrastructure Security](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=INFRASTRUCTURE+SECURITY) | Infrastructure Security Compliance |
-
-| [![PCI-DSS](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/pci>)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=PCI-DSS+V3.2) | Payment Card Industry Data Security Standards Compliance |
-| [![NIST-800-53](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/nist>)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=NIST-800-53) | National Institute of Standards and Technology Compliance |
-| [![ISO27001](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/iso>)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=ISO27001) | Information Security Management System, ISO/IEC 27001 Compliance |
-| [![SOC2](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/soc2>)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=SOC2)| Service Organization Control 2 Compliance |
-| [![HIPAA](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/hipaa>)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
+| [![PCI-DSS](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=PCI-DSS+V3.2) | Payment Card Industry Data Security Standards Compliance |
+| [![NIST-800-53](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=NIST-800-53) | National Institute of Standards and Technology Compliance |
+| [![ISO27001](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=ISO27001) | Information Security Management System, ISO/IEC 27001 Compliance |
+| [![SOC2](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=SOC2)| Service Organization Control 2 Compliance |
+| [![HIPAA](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/azure-cognitive-service-form-recognizer/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
 
 <!-- COMPLIANCE:END -->
 
@@ -196,18 +195,18 @@ Please connect with us!
 [github]: https://github.com/massdriver-cloud
 [linkedin]: https://www.linkedin.com/company/massdriver/
 
-[contributors_shield]: https://img.shields.io/github/contributors/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[contributors_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/graphs/contributors>
-[forks_shield]: https://img.shields.io/github/forks/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[forks_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/network/members>
-[stars_shield]: https://img.shields.io/github/stars/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[stars_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/stargazers>
-[issues_shield]: https://img.shields.io/github/issues/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[issues_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/issues>
-[release_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/releases/latest>
-[release_shield]: https://img.shields.io/github/release/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[license_shield]: https://img.shields.io/github/license/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge>
-[license_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/blob/main/LICENSE>
+[contributors_shield]: https://img.shields.io/github/contributors/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[contributors_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/graphs/contributors
+[forks_shield]: https://img.shields.io/github/forks/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[forks_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/network/members
+[stars_shield]: https://img.shields.io/github/stars/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[stars_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/stargazers
+[issues_shield]: https://img.shields.io/github/issues/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[issues_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/issues
+[release_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/releases/latest
+[release_shield]: https://img.shields.io/github/release/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[license_shield]: https://img.shields.io/github/license/massdriver-cloud/azure-cognitive-service-form-recognizer.svg?style=for-the-badge
+[license_url]: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer/blob/main/LICENSE
 
 [email_url]: mailto:support@massdriver.cloud
 [email_shield]: https://img.shields.io/badge/email-Massdriver-black.svg?style=for-the-badge&logo=mail.ru&color=000000
