@@ -17,7 +17,7 @@ Azure Form Recognizer is a cloud-based Azure Applied AI Service that enables you
 
 ## Design
 
-For detailed information, check out our [Operator Guide](operator.mdx) for this bundle.
+For detailed information, check out our [Operator Guide](operator.md) for this bundle.
 
 ## Usage
 
