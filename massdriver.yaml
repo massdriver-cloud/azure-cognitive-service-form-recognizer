@@ -3,7 +3,6 @@ name: azure-cognitive-service-form-recognizer
 version: 1.0.0
 description: Azure Form Recognizer is a cloud-based Azure Applied AI Service that enables you to build intelligent document processing solutions. Massive amounts of data, spanning a wide variety of data types, are stored in forms and documents. Form Recognizer enables you to effectively manage the velocity at which data is collected and processed and is key to improved operations, informed data-driven decisions, and enlightened innovation.
 source_url: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer
-type: application
 params:
   required:
   - service
