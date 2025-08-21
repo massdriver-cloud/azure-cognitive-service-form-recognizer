@@ -1,60 +1,61 @@
 schema: draft-07
-name: "azure-cognitive-service-form-recognizer"
-description: "Azure Form Recognizer is a cloud-based Azure Applied AI Service that enables you to build intelligent document processing solutions. Massive amounts of data, spanning a wide variety of data types, are stored in forms and documents. Form Recognizer enables you to effectively manage the velocity at which data is collected and processed and is key to improved operations, informed data-driven decisions, and enlightened innovation."
-source_url: github.com/massdriver-cloud/azure-cognitive-service-form-recognizer
-access: private
-type: infrastructure
-
+name: azure-cognitive-service-form-recognizer
+version: 1.0.0
+description: Azure Form Recognizer is a cloud-based Azure Applied AI Service that enables you to build intelligent document processing solutions. Massive amounts of data, spanning a wide variety of data types, are stored in forms and documents. Form Recognizer enables you to effectively manage the velocity at which data is collected and processed and is key to improved operations, informed data-driven decisions, and enlightened innovation.
+source_url: https://github.com/massdriver-cloud/azure-cognitive-service-form-recognizer
 params:
   required:
-    - service
+  - service
   properties:
     service:
       type: object
       title: Cognitive Service Form Recognizer configuration
       required:
-        - region
-        - sku
+      - region
+      - sku
       properties:
         region:
           title: Region
           description: The region where the Form Recognizer service will be deployed. **Cannot be changed after deployment**.
-          $ref: https://raw.githubusercontent.com/massdriver-cloud/artifact-definitions/main/definitions/types/azure-region.json
-          $md.immutable: true
+          "$ref": https://raw.githubusercontent.com/massdriver-cloud/artifact-definitions/main/definitions/types/azure-region.json
+          "$md.immutable": true
         sku:
           title: SKU
           description: The SKU for the form recognizer service. **Cannot be changed after deployment**.
           type: string
-          $md.immutable: true
+          "$md.immutable": true
           oneOf:
-            - title: Free (500 pages/month, 20 calls/minute for recognizer API, 1 call/minute for training API)
-              const: F0
-            - title: Standard (1 call/minute for training API)
-              const: S0
-
+          - title: Free (500 pages/month, 20 calls/minute for recognizer API, 1 call/minute for training API)
+            const: F0
+          - title: Standard (1 call/minute for training API)
+            const: S0
 connections:
   required:
   - azure_service_principal
   properties:
     azure_service_principal:
-      $ref: massdriver/azure-service-principal
-
+      "$ref": massdriver/azure-service-principal
 artifacts:
   required:
-    - endpoint
+  - endpoint
   properties:
     endpoint:
-      $ref: massdriver/azure-cognitive-service-form-recognizer
-
+      "$ref": massdriver/azure-cognitive-service-form-recognizer
 ui:
   ui:order:
-    - service
-    - "*"
+  - service
+  - "*"
   service:
     ui:order:
-      - region
-      - sku
-      - "*"
+    - region
+    - sku
+    - "*"
     region:
       ui:field: supportedCloudLocationsDropdown
       cloudService: azure
+steps:
+- path: src
+  provisioner: opentofu
+  config:
+    checkov:
+      enable: true
